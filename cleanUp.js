@@ -6,7 +6,7 @@
   // make sure the code you submit WORKS - you can run this entire file 
     // using `node cleanUp.js` or copy and paste into a replit
 
-
+   
 // EX 1:
 function nameQuestion() {
   console.log("Hello, what is your name?")
@@ -21,17 +21,17 @@ var sum = first + second + third
 console.log(sum);
       }
 
-addThreeNums(1, 2, 3);
+addThreeNums(1, 2, 3); 
 addThreeNums(4, 2, 7);
 
 
 // EX 3:
-func makeFreshPesto(){
-  console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
-  console.log("Pulse basil and pine nuts");
-  console.log("Add garlic and cheeses");
-  console.log("Slowly pour in oil");
-  console.log("Season");    }
+function makeFreshPesto(){
+  console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper.", 
+  "\nPulse basil and pine nuts.",
+  "\nAdd garlic and cheeses",
+  "\nSlowly pour in oil",
+  "\nSeason");    }
 
 makeFreshPesto();
 
@@ -42,5 +42,5 @@ function average(num1, num2)
 var sum = num1 + num2;
     var avg = sum / 2;
 
-  console.log(`the average is: ${avg}`.)
+  console.log(`the average is: ${avg}.`)
   }
