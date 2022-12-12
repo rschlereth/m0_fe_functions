@@ -47,7 +47,7 @@ console.log(`${item} is running low`);
  
 else  
 console.log(`${item} is OUT of stock!`);
-//else if item <= 1
+
 
 //else () 
 //    console.log("All is well.");
