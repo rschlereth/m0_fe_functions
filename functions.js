@@ -1,5 +1,5 @@
 // 1: Write a function named printGreeting that prints a simple greeting message, the same one, every time it is called. Call this function 3 times.
-function printGreeting () {
+function printGreeting() {
     console.log("Happy Holidays!")
 }
 printGreeting();
@@ -7,7 +7,7 @@ printGreeting();
 printGreeting();
 
 // 2: Write a function that accepts 1 argument. The function should console.log a sentence that interpolates the data passed in.
-function christmasWish (wish) {
+function christmasWish(wish) {
     console.log(`All I want for Christmas is ${wish}".`)
 }
 christmasWish("my two front teeth");
@@ -19,7 +19,7 @@ christmasWish("my two front teeth");
 //(if the numbers passed in are 90000 and 110000, the pay range is 20000).
 function wages(name, num1, num2) {
     var sum = num1 -= num2;
-console.log(`${name} is hiring with competitive wages. Earn ${sum} more than last year.`) 
+    console.log(`${name} is hiring with competitive wages. Earn ${sum} more than last year.`) 
 } 
 
 wages("Santa's Workshop", 50000, 30000);
@@ -39,15 +39,15 @@ wages("Santa's Workshop", 50000, 30000);
 // => "Salsa - running LOW"
 
 function checkstock(count, item) {
-if (count >= 4)
-console.log(`${item} is stocked`);
- 
-else if (count <= 3, count >= 1 ) 
-console.log(`${item} is running low`);
- 
-else  
-console.log(`${item} is OUT of stock!`);
-
+if (count >= 4) {
+    console.log(`${item} is stocked`);
+}
+else if (count >= 1 ) { 
+    console.log(`${item} is running low`);
+}
+else  {
+    console.log(`${item} is OUT of stock!`);
+}
 
 //else () 
 //    console.log("All is well.");
